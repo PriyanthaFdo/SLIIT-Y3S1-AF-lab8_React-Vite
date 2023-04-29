@@ -1,13 +1,11 @@
 function NavBar() {
   return (
     <>
-      <ul style={{}}>
-        <a href="#"><li>link 1</li></a>
-        <a href="#"><li>link 2</li></a>
-        <a href="#"><li>link 3</li></a>
-        <a href="#"><li>link 4</li></a>
-        <a href="#"><li>link 5</li></a>
-      </ul>
+      <a href="#">link 1</a><br />
+      <a href="#">link 2</a><br />
+      <a href="#">link 3</a><br />
+      <a href="#">link 4</a><br />
+      <a href="#">link 5</a><br />
     </>
   );
 }
