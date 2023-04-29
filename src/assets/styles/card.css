@@ -1,0 +1,9 @@
+#productCard{
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 2px;
+  border: 4px solid black;
+  border-radius: 10px;
+}
