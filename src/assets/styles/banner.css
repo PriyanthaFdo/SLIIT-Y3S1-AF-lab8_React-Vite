@@ -1,0 +1,8 @@
+#myBanner{
+  width: 90%;
+  height: 120px;
+  margin: 20px auto;
+
+  background-color: red;
+  border: 2px solid rgb(167, 159, 159);
+}

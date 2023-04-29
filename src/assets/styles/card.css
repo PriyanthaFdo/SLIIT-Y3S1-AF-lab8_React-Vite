@@ -1,5 +1,5 @@
 #productCard{
-  height: 500px;
+  min-height: 100px;
   width: 300px;
   margin: auto;
   margin-top: 20px;
