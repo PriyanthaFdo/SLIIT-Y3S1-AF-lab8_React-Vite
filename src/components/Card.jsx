@@ -9,7 +9,7 @@ export default function Card(props){
       <div id="productCard">
         <h3>{title ?? "Title"}</h3>
         <img src={image} alt="image" className='img-thumbnail img-fluid'/><br />
-         {description}
+         {description ?? "Image description"}
       </div>
     </>
   );

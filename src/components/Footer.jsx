@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
   return (
     <>
@@ -6,9 +8,9 @@ export default function Footer() {
         <br />
         <hr />
         Copyright © 2023 KJP. All rights reserved.{"  |  "}
-        <a href="#">Instagram</a>{"  |  "}
-        <a href="#">LikedIn</a>{"  |  "}
-        <a href="#">GitHub</a>
+        <a href="https://www.instagram.com/">Instagram</a>{"  |  "}
+        <a href="https://www.linkedin.com/">LinkedIn</a>{"  |  "}
+        <Link to="https://github.com/" >GitHub</Link>
       </center>
     </>
   );
