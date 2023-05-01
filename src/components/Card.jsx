@@ -1,7 +1,9 @@
-import '../assets/styles/card.css'
+import '../assets/styles/card.css';
+
+import noImage from "../assets/img/noProductImage.jpg";
 
 export default function Card(props){
-  const image = props.image;
+  const image = props.image ?? noImage;
   const title = props.title;
   const description = props.description;
   return(

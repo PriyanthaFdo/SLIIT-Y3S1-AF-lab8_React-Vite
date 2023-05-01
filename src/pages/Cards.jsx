@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 
-import assetImage from "../assets/img/image2.jpg";
+import assetImage from "../assets/img/product1.jpg";
 
 export default function () {
   return (
@@ -8,7 +8,7 @@ export default function () {
       <Card
         title="Web image"
         description="Hello. This image is rendered by passing a image url link to the Card component"
-        image="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
+        image="https://hbr.org/resources/images/article_assets/2019/11/Nov19_14_sb10067951dd-001.jpg"
       />
 
       <Card
@@ -19,8 +19,13 @@ export default function () {
 
       <Card
         title="No Image"
-        description="No image is defined for this card"
+        description="The defined image does not exist in this card"
         image=""
+      />
+
+      <Card
+        title="No Image"
+        description="An image is not defined in this card"
       />
     </>
   );
